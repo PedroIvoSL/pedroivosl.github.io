@@ -1,211 +1,259 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pedro Ivo Sabá Ledo</title>
-  <script src="https://unpkg.com/feather-icons"></script>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Ivo Saba Ledo - Desenvolvedor & Analista de Automação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <div class="container">
-    <div class="profile">
-      <div class="profile_container">
-        <div class="profile_profileImg">
-          <img src="./images/profileImage.png" alt="Pedro Ivo Sabá Ledo">
-          <a class="blogBtn" href="#">Dentro da Minha Cabeça</a>
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">P.I.S.L.</a>
+            <nav id="main-nav">
+                <button id="hamburger-button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <ul id="nav-links">
+                    <li><a href="#hero" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li><a href="#interesses" class="nav-link">Interesses</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-          <h1 class="profile_name">
-            <span class="profile_name_firstName">Pedro Ivo Sabá</span>
-            <span class="profile_name_lastName">Ledo</span>
-          </h1>
-          <p class="profile_title">Cientista da Computação</p>
-          <p class="description profile_description">
-            Estudante de Ciência da Computação na Universidade Católica de Brasília (UCB), E analista de automação na Nefrostar | INEB | Renal Mais.
-            <br>
-            Fluente em inglês, o que me permite comunicar e interagir com eficácia em um contexto global. Essa proficiência em inglês tem sido especialmente valiosa na minha jornada em segurança cibernética, uma paixão que cultivo intensamente.
-          </p>
-          <a class="downloadBtn" href="./cv.pdf" download="PedroIvoLedo-Curriculo.pdf">Download CV</a>
-        </div>
-      </div>      
-    </div>
-    <div class="group-1">
-      <div class="skills">
-        <h3 class="title">Competências</h3>
-        <ul class="skills_list description">
-          <li>C</li>
-          <li>Java</li>
-          <li>C++</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-          <li>Rails</li>
-          <li>ReactJS</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>PowerBI</li>
-          <li>BRmodelos</li>
-          <li>SINQIA</li>
-          <li>Selenium WebDriver</li>
-          <li>Creative Cloud (Adobe)</li>
-        </ul>
-      </div>
+    </header>
 
-      <div class="edu">
-        <h3 class="title">Formação</h3>
-        <div class="edu_item">
-          <p class="item_preTitle">Atualmente</p>
-          <h4 class="item_title">Ciência da Computação</h4>
-          <p class="item_subtitle">Universidade Católica de Brasília (UCB)</p>
-          <p class="description">
-            Formação prevista para dezembro de 2024. Atualmente no 7º semestre com coeficiente de rendimento de 8,80. 
-          </p>
-        </div>
-        <div class="edu_item">
-          <p class="item_preTitle">2013-2023</p>
-          <h4 class="item_title">Escola de Idiomas</h4>
-          <p class="item_subtitle">COOPLEM</p>
-          <p class="description">
-            Inglês fluente em todas as áreas de fluência.
-          </p>
-        </div>
-      </div>
+    <main>
+        <section id="hero">
+            <div id="particles-js"></div>
+            <div class="container hero-content">
+                <h1 id="hero-name"></h1> <div class="tech-carousel-container scroll-reveal delay-1">
+                    <div class="tech-carousel">
+                        <i class="devicon-c-plain colored" title="C"></i>
+                        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                        <i class="devicon-python-plain colored" title="Python"></i>
+                        <i class="devicon-html5-plain colored" title="HTML5"></i>
+                        <i class="devicon-css3-plain colored" title="CSS3"></i>
+                        <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                        <i class="devicon-kalilinux-plain colored" title="Kali Linux"></i>
+                        <i class="devicon-ubuntu-plain colored" title="Ubuntu"></i>
+                        <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                        <svg class="tech-icon-svg" title="Server" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 19c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM20 3H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+                        <i class="devicon-c-plain colored" title="C"></i>
+                        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                        <i class="devicon-python-plain colored" title="Python"></i>
+                        <i class="devicon-html5-plain colored" title="HTML5"></i>
+                        <i class="devicon-css3-plain colored" title="CSS3"></i>
+                    </div>
+                </div>
 
-      <div class="certification">
-        <h3 class="title">Idiomas</h3>
-        <ul class="description">
-          <li>Português - Nativo</li>
-          <li>Inglês - Fluente</li>
-          <li>Espanhol - Mediano em fala, Mediano em escrita</li>
-          <li>Sueco - Básico em fala, Básico em escrita</li>
-        </ul>
-      </div>
-    </div>
-    <div class="group-2">
-      <div class="exp">
-        <h3 class="title">Experiência</h3>
-        <div class="exp_item">
-          <p class="item_preTitle">Junho 2015 - Novembro 2019</p>
-          <h4 class="item_title">Freelance de Design Gráfico</h4>
-          <p class="item_subtitle">Dono</p>
-          <p class="description">
-            Trabalhei como freelancer em design gráfico desde a pré-adolescência até novembro de 2019.
-          </p>
-        </div>
-        <div class="exp_item">
-          <p class="item_preTitle">Novembro 2019 - Dezembro 2022</p>
-          <h4 class="item_title">Desenvolvedor de Aplicações Web</h4>
-          <p class="item_subtitle">Dono</p>
-          <p class="description">
-            Desenvolvi sites de aplicações web integradas com bancos de dados SQL, utilizando tecnologias como ReactJS, Python, TypeScript, HTML, CSS, Bootstrap, entre outras.
-          </p>
-        </div>
-        <div class="exp_item">
-          <p class="item_preTitle">Maio 2023 - Abril 2024</p>
-          <h4 class="item_title">Estágio em Automação Web</h4>
-          <p class="item_subtitle">FUNPRESP-JUD</p>
-          <p class="description">
-            Atuo no setor de análise de risco, contribuindo para a automação de processos por meio do desenvolvimento em Python. Adquiri conhecimentos significativos sobre o mercado financeiro, investimentos e análise de risco.
-          </p>
-        </div>
-        <div class="exp_item">
-          <p class="item_preTitle">Abril 2024 - Presente</p>
-          <h4 class="item_title">Desenvolvedor / Analista de automação</h4>
-          <p class="item_subtitle">INEB | NEFROSTAR | RENAL MAIS</p>
-          <p class="description">
-            Automação de processos
-          </p>
-        </div>
-      </div>
-      <div class="skills">
-        <h3 class="title">Habilidades</h3>
-        <ul class="skills_list description">
-          <li>Aprender Rápido</li>
-          <li>Colaboração</li>
-          <li>Adaptabilidade</li>
-          <li>Criatividade</li>
-          <li>Comunicação</li>
-          <li>Autogestão</li>
-          <li>Inteligência emocional</li>
-        </ul>
-      </div>
+                <p id="hero-subtitle" class="hero-subtitle-hidden">Desenvolvedor Criativo & Analista de Automação</p>
+                <a href="#projetos" class="cta-button hero-cta-hidden">Ver Projetos</a>
+            </div>
+        </section>
 
-      <div class="interest">
-        <h3 class="title">Interesses</h3>
-        <div class="interest_items">
-          <div class="interest_item">
-            <i data-feather="music"></i>
-            <span>Música</span>
-          </div>
-          <div class="interest_item">
-            <i data-feather="book"></i>
-            <span>Linguística</span>
-          </div>
-          <div class="interest_item">
-            <i data-feather="map"></i>
-            <span>Viajar</span>
-          </div>
-          <div class="interest_item">
-            <i data-feather="camera"></i>
-            <span>Fotografia</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="group-3">
-      <div class="contact">
-        <h3 class="title">Contato</h3>
-        <div class="contact_info">
-          <p class="description">
-            Avenida Central Bloco 111, Casa 6, Núcleo Bandeirante 71710-006
-          </p>
-          <p class="description">
-            (61) 98133-2463
-          </p>
-          <p class="description">
-            pedroivoledo@gmail.com
-          </p>
-        </div>
-      </div>
-      <div class="social">
-        <h3 class="title">Redes Sociais</h3>
-        <div class="social_items">
-          <a href="https://github.com/PedroIvoSL" target="_blank" class="social_item">
-            <i data-feather="github"></i>
-            <span>/pedroivo</span>
-          </a>
-          <a href="https://www.linkedin.com/in/pedro-ivo-sab%C3%A1-ledo-2242a4235/" target="_blank" class="social_item">
-            <i data-feather="linkedin"></i>
-            <span>/pedroivo</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+        <section id="sobre">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Sobre Mim</h2>
+                <div class="sobre-mim-content">
+                    <div class="sobre-mim-texto scroll-reveal">
+                        <p>
+                            Olá! Sou Pedro Ivo Saba Ledo, um apaixonado por tecnologia e soluções criativas.
+                            Atualmente, curso <strong>Ciência da Computação na Universidade Católica de Brasília (UCB)</strong>,
+                            com previsão de formatura para dezembro de 2025 (7º semestre, CR 8,80). Minha jornada é movida pela curiosidade e pelo desejo de transformar
+                            ideias em realidade através do código, combinando design inovador com as melhores práticas de desenvolvimento.
+                        </p>
+                        <p>
+                            Possuo <strong>inglês fluente</strong>, certificado pela COOPLEM (2013-2023), o que me permite interagir e consumir
+                            conteúdo técnico globalmente. Estou sempre explorando novas tecnologias e frameworks para aprimorar minhas habilidades
+                            e adoro desafios que me permitem pensar fora da caixa e colaborar em equipe para construir produtos impactantes.
+                        </p>
+                    </div>
+                    </div>
+            </div>
+        </section>
 
-  <!-- Modal Structure -->
-  <div id="passwordModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Digite a senha</h2>
-      <input type="password" id="passwordInput" placeholder="Senha">
-      <button id="enterBtn">Entrar</button>
-    </div>
-  </div>
+        <section id="experiencia">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Experiência Profissional</h2>
+                <div class="timeline">
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content">
+                            <h3>Desenvolvedor / Analista de Automação</h3>
+                            <p class="timeline-company">INEB | NEFROSTAR | RENAL MAIS</p>
+                            <span class="timeline-date">Abril 2024 - Presente</span>
+                            <p>Foco na automação de processos, otimizando fluxos de trabalho e aumentando a eficiência operacional através de soluções de software.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content">
+                            <h3>Estágio em Automação Web</h3>
+                            <p class="timeline-company">FUNPRESP-JUD</p>
+                            <span class="timeline-date">Maio 2023 - Abril 2024</span>
+                            <p>Atuei no setor de análise de risco, contribuindo para a automação de processos com desenvolvimento em Python. Adquiri conhecimentos significativos sobre o mercado financeiro, investimentos e análise de risco.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content">
+                            <h3>Desenvolvedor de Aplicações Web</h3>
+                            <p class="timeline-company">Autônomo</p>
+                            <span class="timeline-date">Novembro 2019 - Dezembro 2022</span>
+                            <p>Desenvolvi sites e aplicações web integradas com bancos de dados SQL, utilizando tecnologias como ReactJS, Python, TypeScript, HTML, CSS e Bootstrap.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content">
+                            <h3>Freelance de Design Gráfico</h3>
+                            <p class="timeline-company">Autônomo</p>
+                            <span class="timeline-date">Junho 2015 - Novembro 2019</span>
+                            <p>Trabalhei como freelancer em design gráfico desde a pré-adolescência, desenvolvendo identidades visuais e materiais gráficos para diversos clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- External JS Script -->
-  <script src="script.js"></script>
-  <script>
-    feather.replace()
-  </script>
+        <section id="projetos">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Meus Projetos</h2>
+                <div class="grid-projetos">
+                    <article class="card-projeto scroll-reveal">
+                        <img src="https://placehold.co/600x400/0A0F1E/E0EFFF/png?text=Projeto+Alpha" alt="Projeto Alpha" onerror="this.onerror=null;this.src='https://placehold.co/600x400/171C2A/8892b0/png?text=Imagem+Indisponível';">
+                        <h3>Nome do Projeto Alpha</h3>
+                        <p>Descrição concisa do projeto, tecnologias e seu papel.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <div class="links-projeto">
+                            <a href="#" target="_blank" class="link-externo" aria-label="Ver Projeto Alpha online">Ver Online</a>
+                            <a href="#" target="_blank" class="link-github" aria-label="Ver código do Projeto Alpha no GitHub">GitHub</a>
+                        </div>
+                    </article>
+                    </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Minhas Habilidades</h2>
+                <div class="habilidades-categorias-wrapper">
+                    <div class="habilidade-coluna scroll-reveal">
+                        <h3>Técnicas (Hard Skills)</h3>
+                        <div class="habilidades-wrapper">
+                            <div class="habilidade-categoria">
+                                <h4>Linguagens & Frameworks</h4>
+                                <ul>
+                                    <li>C, C++, Java</li>
+                                    <li>Python (Django, Flask, Selenium)</li>
+                                    <li>JavaScript (ES6+), TypeScript</li>
+                                    <li>ReactJS, Next.js</li>
+                                    <li>Rails</li>
+                                    <li>HTML5, CSS3, Bootstrap</li>
+                                </ul>
+                            </div>
+                            <div class="habilidade-categoria">
+                                <h4>Bancos de Dados & Ferramentas</h4>
+                                <ul>
+                                    <li>SQL (MySQL, PostgreSQL)</li>
+                                    <li>MongoDB</li>
+                                    <li>Git & GitHub</li>
+                                    <li>PowerBI</li>
+                                    <li>BRmodelos, SINQIA</li>
+                                    <li>Adobe Creative Cloud</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidade-coluna scroll-reveal delay-1">
+                        <h3>Comportamentais (Soft Skills)</h3>
+                        <ul class="soft-skills-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.206-4.065C6.537 4.595 8.668 2.5 11.5 2.5c2.095 0 3.882 1.349 4.545 3.207.202.563.355 1.158.433 1.776a4.5 4.5 0 01-1.166 3.941zM13 6.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM3.75 12a2.25 2.25 0 002.25 2.25h8A2.25 2.25 0 0016.25 12v-1.5a.75.75 0 00-1.5 0v1.5a.75.75 0 01-.75.75h-8a.75.75 0 01-.75-.75v-1.5a.75.75 0 00-1.5 0v1.5z" clip-rule="evenodd" /></svg>Aprender Rápido</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path d="M7 8a3 3 0 100-6 3 3 0 000 6zM14.5 9a3.5 3.5 0 100-7 3.5 3.5 0 000 7zM5 9.5A2.5 2.5 0 017.5 7H17v1.5a2.5 2.5 0 01-2.5 2.5H13R5V9.5zM7.5 12A2.5 2.5 0 005 14.5V17h9.5A2.5 2.5 0 0017 14.5V13h-7a2.5 2.5 0 00-2.5-2.5z" /></svg>Colaboração</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.206-4.065C6.537 4.595 8.668 2.5 11.5 2.5c2.095 0 3.882 1.349 4.545 3.207.202.563.355 1.158.433 1.776a4.5 4.5 0 01-1.166 3.941zM13 6.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM3.75 12a2.25 2.25 0 002.25 2.25h8A2.25 2.25 0 0016.25 12v-1.5a.75.75 0 00-1.5 0v1.5a.75.75 0 01-.75.75h-8a.75.75 0 01-.75-.75v-1.5a.75.75 0 00-1.5 0v1.5z" clip-rule="evenodd" /></svg>Adaptabilidade</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path d="M11.729 1.085A.75.75 0 0112.25 1.5v1.337a3.753 3.753 0 012.458 3.213c.04.441.076.887.107 1.34.046.67.086 1.347.12 2.025a.75.75 0 01-1.49.14c-.034-.678-.074-1.355-.12-2.025a2.253 2.253 0 00-1.532-2.137V3.75A2.25 2.25 0 009.5 1.5a.75.75 0 01-.75-.75C8.75.336 9.086 0 9.5 0a3.75 3.75 0 013.309 1.808L11.729 1.085z" /><path d="M14.112 8.22A.75.75 0 0115 8.432v.818a3.753 3.753 0 012.458 3.213c.04.441.076.887.107 1.34.046.67.086 1.347.12 2.025a.75.75 0 01-1.49.14c-.034-.678-.074-1.355-.12-2.025a2.253 2.253 0 00-1.532-2.137V10.5a2.25 2.25 0 00-2.25-2.25.75.75 0 010-1.5.75.75 0 01.112.019z" /><path fill-rule="evenodd" d="M10.604 1.146a.75.75 0 011.06 0l2.5 2.5a.75.75 0 01-1.06 1.06L11.5 3.06v9.19a.75.75 0 01-1.5 0V3.06l-1.604 1.604a.75.75 0 11-1.06-1.06l2.5-2.5z" clip-rule="evenodd" /></svg>Criatividade</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.578A1.5 1.5 0 016.043 8.5H4.5a.75.75 0 000 1.5h1.543a1.5 1.5 0 011.316 2.226l-.716 3.578A1.5 1.5 0 015.148 18H3.5A1.5 1.5 0 012 16.5v-13zM18 3.5A1.5 1.5 0 0016.5 2h-1.148a1.5 1.5 0 00-1.465 1.175l-.716 3.578A1.5 1.5 0 0013.957 8.5H15.5a.75.75 0 010 1.5h-1.543a1.5 1.5 0 00-1.316 2.226l.716 3.578A1.5 1.5 0 0014.852 18H16.5A1.5 1.5 0 0018 16.5v-13z" clip-rule="evenodd" /></svg>Comunicação</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path fill-rule="evenodd" d="M2.5 3A1.5 1.5 0 001 4.5v11A1.5 1.5 0 002.5 17h15a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0017.5 3h-15zm4.243 3.243a.75.75 0 011.06 0l2.253 2.253.004-.004.002.001.002.001.001.001h.001l.001.001.001.001a.753.753 0 01.22 1.048l-.001.001-.001.001-.001.001-.001.001-.001.001-.001.001-.001.001-2.254 2.253a.75.75 0 01-1.06-1.06L8.44 10 6.743 8.303a.75.75 0 010-1.06zm4.003 4.004a.75.75 0 00-1.06 0L7.439 12.5H12.5a.75.75 0 010 1.5H7.44l2.253 2.253a.75.75 0 101.06-1.06L9.561 14l2.185-2.185a.75.75 0 000-1.06z" clip-rule="evenodd" /></svg>Autogestão</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="habilidade-icon"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zM10 18a3 3 0 100-6 3 3 0 000 6z" /><path fill-rule="evenodd" d="M1.096 9.03A4.996 4.996 0 014.95 6.091 4.996 4.996 0 019.788 5.5H10a5 5 0 014.904 3.53.75.75 0 001.415-.489A6.5 6.5 0 0010 4a6.5 6.5 0 00-8.864 5.091.75.75 0 101.415.428.75.75 0 00-.455-.52zM18.904 10.97A4.996 4.996 0 0115.05 13.909 4.996 4.996 0 0110.212 14.5H10a5 5 0 01-4.904-3.53.75.75 0 00-1.415.489A6.5 6.5 0 0010 16a6.5 6.5 0 008.864-5.091.75.75 0 10-1.415-.428.75.75 0 00.455.52z" clip-rule="evenodd" /></svg>Inteligência Emocional</li>
+                        </ul>
+                        <h3>Idiomas</h3>
+                        <ul class="idiomas-list">
+                            <li>Português (Nativo)</li>
+                            <li>Inglês (Fluente - C1/C2)</li>
+                            <li>Espanhol (Intermediário)</li>
+                            <li>Sueco (Básico)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interesses">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Meus Interesses</h2>
+                <ul class="interesses-list scroll-reveal">
+                    <li><span class="interesse-emoji">🎵</span> Música</li>
+                    <li><span class="interesse-emoji">🗣️</span> Linguística</li>
+                    <li><span class="interesse-emoji">✈️</span> Viajar</li>
+                    <li><span class="interesse-emoji">📸</span> Fotografia</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Vamos Conversar?</h2>
+                <p class="scroll-reveal contact-subtitle">
+                    Estou sempre aberto a novas oportunidades, projetos interessantes ou apenas um bom bate-papo sobre tecnologia.
+                </p>
+                <form id="form-contato" class="scroll-reveal">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" placeholder=" " required>
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder=" " required></textarea>
+                        <label for="mensagem">Mensagem</label>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </form>
+                <div id="form-message" class="form-message-hidden"></div>
+
+                <div class="links-sociais scroll-reveal delay-1">
+                    <a href="https://www.linkedin.com/in/pedro-ivo-sab%C3%A1-ledo-2242a4235/" target="_blank" title="LinkedIn" aria-label="Meu perfil no LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://github.com/PedroIvoSL" target="_blank" title="GitHub" aria-label="Meus repositórios no GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="mailto:pedroivoledo@gmail.com" target="_blank" title="Email" aria-label="Enviar um email para mim">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Pedro Ivo Saba Ledo. Feito com <span class="heart">❤</span> e código.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
